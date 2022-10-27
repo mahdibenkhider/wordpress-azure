@@ -20,10 +20,10 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
-$connectstr_dbusername = '';
-$connectstr_dbpassword = '';
+$connectstr_dbhost = 'hackeuse.mariadb.database.azure.com';
+$connectstr_dbname = 'mahdiprod';
+$connectstr_dbusername = 'mahdi';
+$connectstr_dbpassword = 'simplon123456789A';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
